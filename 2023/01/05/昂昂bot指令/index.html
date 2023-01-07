@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    
+    <title>昂昂bot指令 - 昂的深林小屋</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    
+
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="昂昂bot指令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="昂昂bot指令">
+<meta property="og:url" content="http://anglife.lj1.site/2023/01/05/%E6%98%82%E6%98%82bot%E6%8C%87%E4%BB%A4/index.html">
+<meta property="og:site_name" content="昂的深林小屋">
+<meta property="og:description" content="昂昂bot指令">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-05T10:23:08.000Z">
+<meta property="article:modified_time" content="2023-01-06T03:47:36.131Z">
+<meta property="article:author" content="ANGJustinl">
+<meta property="article:tag" content="bot相关">
+<meta name="twitter:card" content="summary">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"
+    />
+    
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1673056779700">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1673056779700">
+    <link rel="stylesheet" href="/css/style.css?v=1673056779700">
+     
+    
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+<body class="mdui-drawer-body-left">
+    
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://wenxin.baidu.com/younger/file/selected/9BD46133F7B3E8AE53C48CC7512A56BE)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="ANGJustinl" class="mdui-btn mdui-btn-icon"><img src="https://pic.imgdb.cn/item/63b6959ebe43e0d30ef3f891.png" alt="ANGJustinl"></a>
+            </div>
+        </div>
+    </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="ANGJustinl">
+            <img src="https://pic.imgdb.cn/item/63b6959ebe43e0d30ef3f891.png" alt="ANGJustinl" alt="ANGJustinl">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>18</div>
+        <div><span>标签</span>1</div>
+        <div><span>分类</span>1</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/PY.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+         
+            <form id="search_form" action_e="https://cn.bing.com/search?q=anglife.lj1.site" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+            </form>
+         
+    </div>
+</div>
+    
+    <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://jq.qq.com/?_wv=1027&k=HcXEB0AW" target="_blank" mdui-tooltip="{content: 'QQ群'}" style="color: rgb(249, 174, 8);background-color: rgba(249, 174, 8, .1);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a><a class="mdui-ripple" href="https://space.bilibili.com/213993950/" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-bilibili"></i>
+        </a><a class="mdui-ripple" href="https://github.com/angjustinl/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/昂昂bot/">昂昂bot</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+    
+    
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/bot%E7%9B%B8%E5%85%B3/" style="font-size: 10px;">bot相关</a>
+    </div>
+    
+  </div>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2023 ANGJustinl
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br> <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=HcXEB0AW"><img src="https://pic.imgdb.cn/item/63b6d4abbe43e0d30e75101c.png" width="150px"></a> <script data-ad-client="ca-pub-2058306854838448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_4_tp.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"></a> <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a> <br> 提供CDN加速
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 56.25%;"> 
+              <img src="https://moe.jitsu.top/img/?sort=starry&size=720p" alt="昂昂bot指令" loading="lazy">
+              <h1>昂昂bot指令</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2023年01月05日</a>
+</div>
+
+      <p>昂昂bot指令</p>
+<span id="more"></span>
+<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><p>[Pic_menu]<br>  菜单<br>      菜单 4 2</p>
+<p>[AnimalVoice_Convert]<br><code>兽音加密</code>&#x2F;<code>convert</code> | 否 | 群聊&#x2F;私聊 | 发送需要加密的文字 |<br><code>兽音解密</code>&#x2F;<code>deconvert</code> | 否 | 群聊&#x2F;私聊 | 发送需要解密的文字 |<br><code>切噜一下</code>&#x2F;<code>cherulize</code> | 否 | 群聊&#x2F;私聊 | 发送需要解密的文字 |<br><code>切噜～</code>&#x2F;<code>decherulize</code> | 否 | 群聊&#x2F;私聊 | 发送需要解密的文字 |</p>
+<p>[wallpaper]<br>发送<code>壁纸</code>获取一张壁纸</p>
+<p>发送 <code>运气检测</code></p>
+<p>打开随机出一张壁纸</p>
+<p>非酋还会刷出来风景图</p>
+<p>api来自 <a target="_blank" rel="noopener" href="http://api.iw233.cn/API/index.php">http://api.iw233.cn/API/index.php</a></p>
+<p><code>food</code> 获取食物</p>
+<p><code>sc + 搜索目标</code>搜图</p>
+<p>[nonebot-plugin-status]<br>✨ NoneBot 服务器状态（CPU, Memory, Disk Usage）查看插件✨:<br>向机器人发送戳一戳表情<br><code>双击机器人头像戳一戳</code></p>
+<p>[nonebot_plugin_setu4]<br>内置数据库的setu插件:</p>
+<p>命令头: <code>setu|色图|涩图|想色色|来份色色|来份色图|想涩涩|多来点|来点色图|来张setu|来张色图|来点色色|色色|涩涩</code>  (任意一个)</p>
+<p>张数: <code>1 2 3 4 ... 张|个|份</code>  (可不填, 默认1)</p>
+<p><code>r18</code>: 不填则不会出现r18图片, 填了会根据r18模式管理中的数据判断是否可返回r18图片</p>
+<p>关键词: 任意 (可不填)</p>
+<p>参考 (空格可去掉):   </p>
+<blockquote>
+<p>setu 10张 r18 白丝<br>setu 10张 白丝<br>setu r18 白丝<br>setu 白丝<br>setu</p>
+</blockquote>
+<p>[nonebot-plugin-drawer] 目前因为文心接口原因停止使用<br>基于文心大模型的AI机器人画画插件:</p>
+<p>触发菜单命令：<code>画画帮助 当前支持 古风 油画 水彩画 卡通画 二次元 浮世绘 蒸汽波艺术 low poly 像素风格 概念艺术 未来主义 赛博朋克 写实风格 洛丽塔风格 巴洛克风格 超现实主义</code> 主要擅长风景写意画，请尽量给定比较明确的意象</p>
+<p>如：<code>油画 江上落日与晚霞</code></p>
+<blockquote>
+<p>「公式」&#x3D; 图片主体，细节词，修饰词</p>
+</blockquote>
+<p>api申请<a target="_blank" rel="noopener" href="https://wenxin.baidu.com/younger/apiDetail?id=20008">https://wenxin.baidu.com/younger/apiDetail?id=20008</a></p>
+<p>[nonebot_plugin_weather_lite]<br>使用wttr.in的天气查询:<br>命令：</p>
+<p>注：</p>
+<pre><code>1.以下天气命令均可以使用wttr、weather、tianqi等效替代,
+
+2.城市名可以使用各种语言，例如Beijing、Peking、北京是等效的。
+
+3.支持查询全球各种地区。例如莫斯科什么的都可以。
+</code></pre>
+<p><code>&quot;天气 城市名&quot;</code> (可选，如不给出机器人会提示获取)</p>
+<p><code>&quot;天气 城市名_format=v2&quot;</code></p>
+<p><code>&quot;天气 城市名_format=v3&quot;</code></p>
+<p>指定语言:</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><code class="hljs routeros">天气 城市名<span class="hljs-attribute">_lang</span>=语言<br></code></pre></td></tr></table></figure>
+
+<p>语言可选于：</p>
+<blockquote>
+<p>am ar af be bn ca da de el et fr fa hi hu ia id it lt mg nb nl oc pl pt-br ro ru ta tr th uk vi zh-cn zh-tw</p>
+</blockquote>
+<p>甚至支持看月相：</p>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><code class="hljs 1c"><span class="hljs-string">&quot;天气 Moon&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>更多用法请参考wttr.in的文档！<br>地址：<a target="_blank" rel="noopener" href="https://github.com/chubin/wttr.in">https://github.com/chubin/wttr.in</a></p>
+<p>[nonebot_plugin_fortune]</p>
+<p>占卜一下你的今日运势！🎉</p>
+<p>一般抽签：<code>今日运势、抽签、运势</code>；</p>
+<p>指定主题抽签：<code>[xx抽签]</code>，例如：pcr抽签、holo抽签、碧蓝抽签；</p>
+<p>[群管或群主或超管] 配置抽签主题：<code>设置[原神/pcr/东方/vtb/xxx]签</code>：设置群抽签主题；</p>
+<p><code>重置（抽签）主题</code>：设置群抽签主题为随机；</p>
+<p><code>抽签设置</code>：查看当前群抽签主题的配置；</p>
+<p>[超管] <code>刷新抽签</code> ：全局即刻刷新抽签，防止过0点未刷新；</p>
+<p><code>今日运势帮助</code> ：显示插件帮助文案；</p>
+<p><code>查看（抽签）主题</code> ：显示当前已启用主题；</p>
+<p>[HarukaBot b站推送]</p>
+<p>（请将UID替换为需要操作的B站UID）</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><code class="hljs swift">关闭全体 <span class="hljs-type">UID</span><br><br>开启全体 <span class="hljs-type">UID</span><br><br>开启动态 <span class="hljs-type">UID</span><br><br>关闭动态 <span class="hljs-type">UID</span><br><br>关闭直播 <span class="hljs-type">UID</span><br><br>开启直播 <span class="hljs-type">UID</span><br><br>关闭权限<br><br>开启权限<br><br>关注 <span class="hljs-type">UID</span><br><br>取关 <span class="hljs-type">UID</span><br><br>关注列表<br><br>未改配置群聊中请<span class="hljs-meta">@机器人使用</span><br></code></pre></td></tr></table></figure>
+<p>[savor]<br><code>分析 + 图片 分析图片tag</code></p>
+<p>[pixiv_bot]<br><code>看看&lt;类型&gt;榜&lt;范围&gt;</code>：查看pixiv榜单 &lt;类型&gt;可省略</p>
+<p><code>来&lt;数量&gt;张图</code>：从推荐插画随机抽选一张插画（&lt;数量&gt;可省略，下同）</p>
+<p><code>来&lt;数量&gt;张&lt;关键字&gt;图</code>：搜索关键字，从搜索结果随机抽选一张插画</p>
+<blockquote>
+<p>示例：来张初音ミク图、来五张初音ミク图</p>
+</blockquote>
+<p><code>来&lt;数量&gt;张&lt;用户&gt;老师的图</code>：搜索用户，从插画列表中随机抽选一张插画</p>
+<p><code>看看图&lt;插画ID&gt;</code>：查看ID对应的插画</p>
+<blockquote>
+<p>示例：看看图114514</p>
+</blockquote>
+<p><code>来&lt;数量&gt;张私家车</code>：从书签中随机抽选一张插画（发送者需绑定Pixiv账号，或者在配置中指定默认Pixiv账号）</p>
+<p><code>/pixivbot bind &lt;pixiv_user_id&gt;</code>：绑定Pixiv账号（用于随机书签功能）</p>
+<p><code>/pixivbot unbind</code>：解绑Pixiv账号</p>
+<p><code>/pixivbot</code>、<code>/pixivbot help</code>：查看帮助</p>
+<p>[face2cartoonpic]<br><code>人像变换 + 图片</code> 可以实现qq的变脸功能</p>
+<p>[maimaidx]<br><code>今日舞萌</code> 查看今天的舞萌运势</p>
+<p><code>XXXmaimaiXXX什么</code> 随机一首歌</p>
+<p><code>随个[dx/标准][绿黄红紫白]&lt;难度&gt;</code> 随机一首指定条件的乐曲</p>
+<p><code>查歌&lt;乐曲标题的一部分&gt;</code> 查询符合条件的乐曲</p>
+<p><code>[绿黄红紫白]id&lt;歌曲编号&gt;</code> 查询乐曲信息或谱面信息</p>
+<p><code>&lt;歌曲别名&gt;是什么歌</code> 查询乐曲别名对应的乐曲</p>
+<p><code>定数查歌 &lt;定数&gt;</code>  查询定数对应的乐曲</p>
+<p><code>定数查歌 &lt;定数下限&gt; &lt;定数上限&gt;</code></p>
+<p><code>分数线 &lt;难度+歌曲id&gt; &lt;分数线&gt;</code> 详情请输入“分数线 帮助”查看</p>
+<hr>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>本文作者：</strong>ANGJustinl<br>
+        <strong>本文链接：</strong><a href="http://anglife.lj1.site/2023/01/05/%E6%98%82%E6%98%82bot%E6%8C%87%E4%BB%A4/" title="http:&#x2F;&#x2F;anglife.lj1.site&#x2F;2023&#x2F;01&#x2F;05&#x2F;%E6%98%82%E6%98%82bot%E6%8C%87%E4%BB%A4&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;anglife.lj1.site&#x2F;2023&#x2F;01&#x2F;05&#x2F;%E6%98%82%E6%98%82bot%E6%8C%87%E4%BB%A4&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E6%98%82%E6%98%82bot/">昂昂bot</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/bot%E7%9B%B8%E5%85%B3/" rel="tag">bot相关</a>
+    
+</div>
+
+  
+      <div class="nexmoe-post-footer">
+          <section class="nexmoe-comment">
+    <div id="gitment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'angjustinl', // 你的 GitHub ID
+    repo: 'https://github.com/ANGJustinl/angjustinl.github.io', // 存储评论的 repo
+    oauth: {
+        client_id: 'e32b9681bca61722a126', // 你的 client ID
+        client_secret: 'f35f101fe68cd3683a1b678ae0d2776748669108' // 你的 client secret
+    },
+})
+gitment.render('gitment')
+</script>
+</section>
+      </div>
+  
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+    <div id="nexmoe-search-space">
+        <div class="search-container">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <input class="search-input" type="text" placeholder="搜索" oninput="sinput();">
+                </div>
+                <a class="search-close" onclick="sclose();">×</a>
+            </div>
+            <div class="search-body"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1673056779702"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+    
+
+
+
+
+
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
