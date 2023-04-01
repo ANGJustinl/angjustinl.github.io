@@ -1,0 +1,44 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="https://unpkg.com"app" style="
+    <div sty-i="s: center;mar;justify-content: center;align-items: center;mar;justify-content: center;align-items: center;mar;justify-content: center;align-items: center;margin: 20">
+            <textarea type="text" v-mo:15"></text送rea>
+                    <button v-on:click="ask()">发送rea>
+                            <button v-on:click="ask()">发送</button>
+                                <ONTENT: centerid="res" colsxt10a></div>
+                                </div>
+                                "20">{{res}}</textarea></div>
+                                </div>
+                                "20">{{res}}</textarea></div>
+                                </div>
+                                "20">{{res}}</textarea></div>
+                                </div>
+                                <script>
+                                    const { createApp } = Vue
+                                        createApp({
+                                                    data() {
+                                                                    return {
+                                                                                        info: 'Hello 小袁同学是谁',
+                                                                                                        res: '',
+                                                                                                                        api: 'sk-'
+                                                                                                                                    }
+                                                                                                                                            },
+                                                                                                                                                    methods: {
+                                                                                                                                                                    ask() {
+                                                                                                                                                                                        this.res = '请求中。。。。。。'
+                                                                                                                                                                                                        axios.post('https://api.openai.com/v1/completions', {
+                                                                                                                                                                                                                                prompt: this.info, max_tokens: 2048, model:               headeroriza 'content-type': 'application/json', 'Authoriza 'content-type': 'application/json', 'Authorization': 'Bresponse => {         }
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                            }).mount('#app')
+                                                                                                                                                                                                                                            </script>
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                        }).mount('#app')
+                                                                                                                                                                                                                                                        </script>
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                    }).mount('#app')
+                                                                                                                                                                                                                                                                    </script>
+                                                                                                                                                                                                        })
+                                                                                                                                                                    }
+                                                                                                                                                    }
+                                                                    }
+                                                    }
+                                        })
