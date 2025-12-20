@@ -1,0 +1,21 @@
+- links_category: Friends~
+  has_thumbnail: true
+  list:
+      - name: ANGJustinl
+        link: https://angforever.top
+        description: Myself~
+        avatar: /images/logo-removebg.svg
+        thumbnail: https://pic.imgdb.cn/item/63b693e7be43e0d30ef057c7.png
+
+      - name: qlbro
+        link: https://qilinbro.github.io/
+        description: qlbro here
+        avatar: https://avatars.githubusercontent.com/u/185696434?v=4
+        thumbnail: https://private-user-images.githubusercontent.com/185696434/427358272-665e9345-8b67-4806-b735-0361a23538cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg5Mzk3OTAsIm5iZiI6MTc0ODkzOTQ5MCwicGF0aCI6Ii8xODU2OTY0MzQvNDI3MzU4MjcyLTY2NWU5MzQ1LThiNjctNDgwNi1iNzM1LTAzNjFhMjM1MzhjZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwM1QwODMxMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZTcyNjk5YzRmMjg0MTE4MGQ2YTZjNjVhMDA0YzdiN2I5ZjUyMWQ3Njg0MzU5NjIxYmNkMmI4ZTY3NjI5NDkzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bahQiFwHNNVi02PG6rdvx_Vxbt70kPhUqH7-QhU6BDk
+     
+      - name: Example Site
+        link: https://example.com
+        description: Example Site Description
+        avatar: /images/logo-removebg.svg
+        thumbnail: https://pic.imgdb.cn/item/63b693e7be43e0d30ef057c7.png
+
