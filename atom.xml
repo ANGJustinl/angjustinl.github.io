@@ -6,7 +6,7 @@
   <link href="https://blog.angforever.top/atom.xml" rel="self"/>
   
   <link href="https://blog.angforever.top/"/>
-  <updated>2025-05-30T01:41:57.114Z</updated>
+  <updated>2025-10-19T06:23:08.848Z</updated>
   <id>https://blog.angforever.top/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些回忆,一些往事</title>
+    <link href="https://blog.angforever.top/2025/08/01/%E4%B8%80%E4%BA%9B%E5%9B%9E%E5%BF%86,%E4%B8%80%E4%BA%9B%E5%BE%80%E4%BA%8B/"/>
+    <id>https://blog.angforever.top/2025/08/01/%E4%B8%80%E4%BA%9B%E5%9B%9E%E5%BF%86,%E4%B8%80%E4%BA%9B%E5%BE%80%E4%BA%8B/</id>
+    <published>2025-08-01T08:02:07.000Z</published>
+    <updated>2025-10-19T06:23:08.848Z</updated>
+    
+    <content type="html"><![CDATA[<p>2023年初，我第一次拥有了一台属于自己的物理服务器。那是一台我亲手组装的便宜小机器，核心是“神秘”的最后一代 赛扬 G6900。朋友笑我说“这U也太闲了”，我却想：既然有了这台主机，何不部署点什么玩玩？就这样，我打开了属于自己的博客世界。</p><p>一开始我选的是 Hexo，静态博客，轻量好用。摸索着写配置、套主题、改样式，一切都那么新鲜。到后来，我完成了备案、开启了 HTTPS (摸索了ngnix和cdn) ，把博客挂在了二级域名下，还接入了在线监测工具——那段日子里，每一次成功部署、每一次访问的日志跳动，都都会让我开心许久。</p><p>年中，我换了主题，用了很久的时间研究迁移，界面一下子精致了许多，仿佛博客也有了自己的性格。</p><p>可惜好景不长。2024年5月，针对我线上服务器的勒索攻击，直接摧毁了我当时部署的大部分网页。博客和网盘数据全部丢失，备份滞后、权限配置疏忽……曾经投入无数时间的网站就此归零。</p><p>那段时间，我几乎失去了重新搭建的勇气。</p><p>直到一年后，2025年8月，高考一月后，我才决定重新出发。这一次，我选择了全部部署到 NAS 上, 使用内网，同时备份markdown至github：远离公网攻击，所有数据由我掌控。我也抛弃了繁复的主题和功能，转而使用轻量级的 Redefine v2.8.2，只保留最纯粹的写作与发布功能。经历了崩溃与重构，我对“掌控自己数据”和“简洁可持续”的理解比以往更深。</p><p>从一颗闲置的赛扬 G6900，到文档博客重生。也许这就是“自托管”的意义——它记录了我一个普通技术爱好者，从硬件点亮、到拥有属于我自己的一片网络上的小小天地的全过程。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2023年初，我第一次拥有了一台属于自己的物理服务器。那是一台我亲手组装的便宜小机器，核心是“神秘”的最后一代 赛扬 G6900。朋友笑我说“这U也太闲了”，我却想：既然有了这台主机，何不部署点什么玩玩？就这样，我打开了属于自己的博客世界。&lt;/p&gt;
+&lt;p&gt;一开始我选的是 H</summary>
+      
+    
+    
+    
+    <category term="随记" scheme="https://blog.angforever.top/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+    <category term="学习" scheme="https://blog.angforever.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Opus_Magnum留档</title>
+    <link href="https://blog.angforever.top/2025/07/30/Opus_Magnum%E7%95%99%E6%A1%A3/"/>
+    <id>https://blog.angforever.top/2025/07/30/Opus_Magnum%E7%95%99%E6%A1%A3/</id>
+    <published>2025-07-30T08:02:07.000Z</published>
+    <updated>2025-10-19T06:24:06.352Z</updated>
+    
+    
+    
+    
+    <category term="随记" scheme="https://blog.angforever.top/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+    <category term="留档" scheme="https://blog.angforever.top/tags/%E7%95%99%E6%A1%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>Steam Profile Widget</title>
