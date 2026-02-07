@@ -1,7 +1,7 @@
 ---
 title: ASFConnector | 更现代的开源ArchiSteamFarm Python API库 | ASF 挂卡 API框架 | ArchiSteamFarm | Steam 挂卡
 author: ANGForever
-date: 2023-04-02 16:02:07
+date: 2025-10-30 20:02:07
 tags: [Steam, 学习, ArchiSteamFarm, 框架]
 categories: [Steam, ArchiSteamFarm]
 mathjax: true
