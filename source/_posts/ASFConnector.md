@@ -5,12 +5,12 @@ date: 2025-10-30 20:02:07
 tags: [Steam, 学习, ArchiSteamFarm, 框架]
 categories: [Steam, ArchiSteamFarm]
 mathjax: true
-thumbnail: "https://i-blog.csdnimg.cn/direct/4eca6ed17b604263a742debcf924a0c9.png"
+thumbnail: ./images/asf.png
 ---
 
 > ​ASFConnector已开源在GitHub（https://github.com/ANGJustinl/ASFConnector），欢迎大家试用并提出宝贵意见。项目采用GPL-3.0许可证。
 
-​![ASFConnector](https://i-blog.csdnimg.cn/direct/4eca6ed17b604263a742debcf924a0c9.png)
+​![ASFConnector](./images/asf.png)
 
 最近在考虑制作基于ASF（ArchiSteamFarm）的自动化脚本时，我发现现存的ASFIPC类客户端普遍存在三个痛点：不支持Python 3.10+的类型提示、配置管理混乱、错误调试如同猜谜。更让人头疼的是，这些库大多停留在python3.6时代，完全无法满足现代异步应用的性能需求。
 
